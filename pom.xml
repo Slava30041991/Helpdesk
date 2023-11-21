@@ -13,7 +13,7 @@
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.7.2</selenium.version>
+        <selenium.version>4.10.0</selenium.version>
         <bonigarcia.version>5.3.2</bonigarcia.version>
         <junit.version>4.13.2</junit.version>
         <typesafe.version>1.4.1</typesafe.version>
