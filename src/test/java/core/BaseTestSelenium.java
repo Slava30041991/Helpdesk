@@ -12,6 +12,9 @@ abstract public class BaseTestSelenium {
 
     @Before
     public void setUp(){
+
+
+
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
