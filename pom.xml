@@ -10,14 +10,9 @@
 
     <properties>
 
-        <maven.compiler.source>12</maven.compiler.source>
-        <maven.compiler.target>12</maven.compiler.target>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.10.0</selenium.version>
-        <bonigarcia.version>5.3.2</bonigarcia.version>
-        <junit.version>4.13.2</junit.version>
-        <typesafe.version>1.4.2</typesafe.version>
-
 
     </properties>
 
@@ -26,31 +21,33 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>${selenium.version}</version>
+        <version>4.8.1</version>
     </dependency>
-
 
     <dependency>
         <groupId>io.github.bonigarcia</groupId>
         <artifactId>webdrivermanager</artifactId>
-        <version>${bonigarcia.version}</version>
+        <version>5.3.2</version>
     </dependency>
-
 
     <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${junit.version}</version>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.9.2</version>
         <scope>test</scope>
     </dependency>
-
 
     <dependency>
         <groupId>com.typesafe</groupId>
         <artifactId>config</artifactId>
-        <version>${typesafe.version}</version>
+        <version>1.4.1</version>
     </dependency>
-
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
 
 
 </dependencies>
